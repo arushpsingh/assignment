@@ -1,0 +1,7 @@
+services:
+  logger.channel.transcode_profile:
+    parent: logger.channel_base
+    arguments: ["transcode_profile"]
+  getprofile:
+    class: Drupal\transcode_profile\Getprofile
+    arguments: ["@config.factory"]

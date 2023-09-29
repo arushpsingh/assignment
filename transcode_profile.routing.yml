@@ -1,0 +1,15 @@
+transcode_profile.admin_settings_form:
+  path: "/worldtime"
+  defaults:
+    _form: 'Drupal\transcode_profile\Form\AdminConfigurationForm'
+    _title: "Custom Time Location Configuration"
+  requirements:
+    _permission: "administer site configuration"
+
+transcode_profile.world_time_api:
+  path: "/admin/config/transcode-profile/worldtimeapi"
+  defaults:
+    _form: 'Drupal\transcode_profile\Form\WorldTimeApi'
+    _title: "World Time API Configuration"
+  requirements:
+    _permission: "administer site configuration"

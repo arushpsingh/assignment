@@ -1,0 +1,11 @@
+country: "United States"
+city: "New York"
+timezone:
+  - "America/Chicago"
+  - "America/New_York"
+  - "Asia/Tokyo"
+  - "Asia/Dubai"
+  - "Asia/Kolkata"
+  - "Europe/Amsterdam"
+  - "Europe/Oslo"
+  - "Europe/London"

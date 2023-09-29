@@ -1,0 +1,8 @@
+js_example:
+  js:
+    js/jsset.js:{}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
+    - core/drupalSettings

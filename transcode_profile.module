@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function transcode_profile_theme($existing, $type, $theme, $path)
+{
+    return [
+        'getprofileblock' => [
+            'variables' => [
+                'country' => [],
+                'city' => [],
+            ],
+        ],
+    ];
+}

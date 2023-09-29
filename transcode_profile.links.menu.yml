@@ -1,0 +1,12 @@
+transcode_profile.admin_settings_form:
+  title: "Custom Time Location"
+  route_name: transcode_profile.admin_settings_form
+  description: "Manage Custom Time Location"
+  parent: system.admin_config_development
+  weight: 99
+transcode_profile.world_time_api:
+  title: "Time Zone"
+  route_name: transcode_profile.world_time_api
+  description: "Description for menu entry"
+  parent: system.admin_config_system
+  weight: 99

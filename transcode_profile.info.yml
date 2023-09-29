@@ -1,0 +1,8 @@
+name: Transcode Profile
+package: Custom
+type: module
+description: "Provides a block for displaying location and time"
+core_version_requirement: ^9.2 || ^10
+dependencies: drupal:config
+config_install: 
+  - transcode_profile.worldTimeApi
